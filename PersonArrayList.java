@@ -50,7 +50,7 @@ public class PersonArrayList {
 		
 		for(int i = 0; i < arraylist2.size(); i++)
 		{
-			System.out.println("All Array's names: "+arraylist2.get(i)+arraylist2.indexOf(i));
+			System.out.println("All Array's names: "+arraylist2.indexOf(arraylist2.get(i))+"."+arraylist2.get(i));
 		}
 		
 		
